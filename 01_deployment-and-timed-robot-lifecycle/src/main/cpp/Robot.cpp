@@ -1,51 +1,53 @@
 #include "Robot.h"
 
+#include <iostream>
+
 void Robot::RobotInit()
 {
-    // Intentionally empty
+    SetPeriod(1);
 }
 
 void Robot::RobotPeriodic()
 {
-    // Intentionally empty
+    std::cout << "Robot::RobotPeriodic() executed" << std::endl;
 }
 
 void Robot::AutonomousInit()
 {
-    // Intentionally empty
+    std::cout << "Robot::AutonomousInit() executed" << std::endl;
 }
 
 void Robot::AutonomousPeriodic()
 {
-    // Intentionally empty
+    std::cout << "Robot::AutonomousPeriodic() executed" << std::endl;
 }
 
 void Robot::TeleopInit()
 {
-    // Intentionally empty
+    std::cout << "Robot::TeleopInit() executed" << std::endl;
 }
 
 void Robot::TeleopPeriodic()
 {
-    // Intentionally empty
+    std::cout << "Robot::TeleopPeriodic() executed" << std::endl;
 }
 
 void Robot::TestInit()
 {
-    // Intentionally empty
+    std::cout << "Robot::TestInit() executed" << std::endl;
 }
 
 void Robot::TestPeriodic()
 {
-    // Intentionally empty
+    std::cout << "Robot::TestPeriodic() executed" << std::endl;
 }
 
 void Robot::DisabledInit()
 {
-    // Intentionally empty
+    std::cout << "Robot::DisabledInit() executed" << std::endl;
 }
 
 void Robot::DisabledPeriodic()
 {
-    // Intentionally empty
+    std::cout << "Robot::DisabledPeriodic() executed" << std::endl;
 }
