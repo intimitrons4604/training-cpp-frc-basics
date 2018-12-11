@@ -1,5 +1,6 @@
 #pragma once
 
+#include <Talon.h>
 #include <TimedRobot.h>
 
 class Robot : public frc::TimedRobot
@@ -22,5 +23,6 @@ public:
   void DisabledPeriodic() override;
 
 private:
-  // TODO Replace this line by adding a motor controller to the robot
+  frc::Talon motor{0};
+  // TODO Replace this line by adding an XboxController to the robot
 };
