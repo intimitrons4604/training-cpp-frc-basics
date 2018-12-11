@@ -27,7 +27,7 @@ void Robot::TeleopInit()
 
 void Robot::TeleopPeriodic()
 {
-    // Intentionally empty
+    // TODO Add code to spin the motor here
 }
 
 void Robot::TestInit()

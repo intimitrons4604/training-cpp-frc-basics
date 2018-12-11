@@ -22,5 +22,5 @@ public:
   void DisabledPeriodic() override;
 
 private:
-  // Intentionally empty
+  // TODO Replace this line by adding a motor controller to the robot
 };
