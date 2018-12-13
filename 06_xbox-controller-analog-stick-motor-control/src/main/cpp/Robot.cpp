@@ -29,7 +29,7 @@ void Robot::TeleopPeriodic()
 {
     // TODO Add code to spin the motor forward or backwards at a speed
     // linearly proportional to how far the right stick is pushed forward
-    // or backwords along the y axis
+    // or backwards along the y axis
 }
 
 void Robot::TestInit()

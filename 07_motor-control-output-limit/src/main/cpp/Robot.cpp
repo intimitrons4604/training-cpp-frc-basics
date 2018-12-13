@@ -34,7 +34,7 @@ void Robot::TeleopPeriodic()
 
     // TODO Add code to spin the motor forward or backwards at a speed
     // linearly proportional to how far the right stick is pushed forward
-    // or backwords along the y axis (rightStickY), but limit the maximum
+    // or backwards along the y axis (rightStickY), but limit the maximum
     // motor power in both directions to 60%
 }
 
