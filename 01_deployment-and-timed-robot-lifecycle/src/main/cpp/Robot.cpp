@@ -5,6 +5,8 @@
 void Robot::RobotInit()
 {
     SetPeriod(1);
+
+    std::cout << "Robot::RobotInit() executed" << std::endl;
 }
 
 void Robot::RobotPeriodic()
