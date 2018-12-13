@@ -27,7 +27,7 @@ void Robot::TeleopInit()
 
 void Robot::TeleopPeriodic()
 {
-    // TODO Add code to spin the motor only if the A button is pressed and the limit switch is not pressed
+    // TODO Add code to spin the motor only if either the left, right, or both stick buttons are pressed, and the limit switch is not pressed
 }
 
 void Robot::TestInit()
