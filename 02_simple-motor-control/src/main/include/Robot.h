@@ -1,7 +1,7 @@
 #pragma once
 
 #include <TimedRobot.h>
-
+#include <Talon.h>
 class Robot : public frc::TimedRobot
 {
 public:
@@ -23,4 +23,7 @@ public:
 
 private:
   // TODO Replace this line by adding a motor controller to the robot
+frc::Talon motor{1};
+frc::Talon motortwo{2};
+
 };

@@ -2,7 +2,7 @@
 
 #include <Talon.h>
 #include <TimedRobot.h>
-
+#include <XboxController.h>
 class Robot : public frc::TimedRobot
 {
 public:
@@ -25,4 +25,6 @@ public:
 private:
   frc::Talon motor{0};
   // TODO Replace this line by adding an XboxController to the robot
+  frc::XboxController xbox{0};
+
 };

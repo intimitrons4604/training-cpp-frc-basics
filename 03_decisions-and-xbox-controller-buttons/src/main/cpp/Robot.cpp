@@ -30,11 +30,32 @@ void Robot::TeleopPeriodic()
     /*
      * TODO Add code to spin the motor here
      *   - if the A button is pressed, spin the motor forwards
+     * 
+     * 
      *   - if the B button is pressed, spin the motor backwards
      *   - if neither A or B is pressed, stop the motor
      *   - BONUS: What happens if you push the A and B buttons at the same time?
      *     Is this the behaviour you intended?
+   
+   
      */
+
+
+
+
+    if (xbox.GetAButton())
+    {
+        // if true
+        motor.Set(0.5);
+
+    }
+
+    if (xbox.GetBButton())
+    {
+
+        motor.Set(-0.5);
+    }
+
 }
 
 void Robot::TestInit()

@@ -28,6 +28,8 @@ void Robot::TeleopInit()
 void Robot::TeleopPeriodic()
 {
     // TODO Add code to spin the motor here
+    motor.Set(0.5);
+    motortwo.Set(0.5);
 }
 
 void Robot::TestInit()
