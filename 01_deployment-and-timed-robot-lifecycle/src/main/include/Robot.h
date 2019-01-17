@@ -1,10 +1,12 @@
 #pragma once
 
-#include <TimedRobot.h>
+#include <frc/TimedRobot.h>
 
 class Robot : public frc::TimedRobot
 {
 public:
+  Robot();
+
   void RobotInit() override;
 
   void RobotPeriodic() override;

@@ -2,10 +2,13 @@
 
 #include <iostream>
 
+Robot::Robot() : frc::TimedRobot(1)
+{
+    // Intentionally empty
+}
+
 void Robot::RobotInit()
 {
-    SetPeriod(1);
-
     std::cout << "Robot::RobotInit() executed" << std::endl;
 }
 
