@@ -1,7 +1,7 @@
 #pragma once
 
-#include <Talon.h>
-#include <TimedRobot.h>
+#include <frc/Talon.h>
+#include <frc/TimedRobot.h>
 
 class Robot : public frc::TimedRobot
 {

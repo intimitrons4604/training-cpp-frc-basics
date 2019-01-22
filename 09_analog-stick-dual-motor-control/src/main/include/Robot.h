@@ -1,8 +1,8 @@
 #pragma once
 
-#include <Talon.h>
-#include <TimedRobot.h>
-#include <XboxController.h>
+#include <frc/Talon.h>
+#include <frc/TimedRobot.h>
+#include <frc/XboxController.h>
 
 class Robot : public frc::TimedRobot
 {
