@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-typedef frc::GenericHID::JoystickHand JoystickHand;
+using JoystickHand = frc::GenericHID::JoystickHand;
 
 // TODO Replace this line by adding a constant for the motor output power limit
 
