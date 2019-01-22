@@ -1,6 +1,6 @@
 #include "Robot.h"
 
-typedef frc::GenericHID::JoystickHand JoystickHand;
+using JoystickHand = frc::GenericHID::JoystickHand;
 
 void Robot::RobotInit()
 {
@@ -29,7 +29,7 @@ void Robot::TeleopInit()
 
 void Robot::TeleopPeriodic()
 {
-    // Note that the typedef at the top of the file saves us from having to type out the fully qualified JoystickHand
+    // Note that the type alias (i.e. using) at the top of the file saves us from having to type out the fully qualified JoystickHand
     double rightStickY = xboxController.GetY(JoystickHand::kRightHand);
 
     // TODO Add code to spin the motor forward or backwards at a speed

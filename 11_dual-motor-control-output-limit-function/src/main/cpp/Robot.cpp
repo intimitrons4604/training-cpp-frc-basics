@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-typedef frc::GenericHID::JoystickHand JoystickHand;
+using JoystickHand = frc::GenericHID::JoystickHand;
 
 void Robot::RobotInit()
 {
